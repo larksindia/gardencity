@@ -85,9 +85,20 @@
 }
 
 .header.smaller {
-    height: 230px;
+    height: 130px;
     transition: 0.5s ease-in-out;
     z-index: 1;
+}
+
+.header.smaller .navbar-brand>img {
+    width: 100px;
+    margin-top: -17px;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar-brand>img {
+    width: 110px;
+    transition: 0.5s ease-in-out;
 }
 
 .fixed {
@@ -141,4 +152,16 @@
 .dropdown .dropdown-menu li a:hover {
     background: greenyellow;
     color: #fff !important;
+}
+
+.this-mtitle {
+    font-size: 100px !important;
+}
+
+.this-ttitle {
+    font-size: 40px !important;
+}
+
+.carosel-indicator-img {
+    padding: 35%;
 }
