@@ -185,7 +185,7 @@ section.abt_commercial {
 }
 
 .aboutus_sec1 {
-    background: url(../images/iconica-developer-1.jpg);
+    background: url(../images/iconicadeveloper.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -632,4 +632,58 @@ ul.footer_social>li>a>i {
 ul.footer_social>li>a:hover {
     background: #96d830;
     border-color: #96d830;
+}
+
+
+/*navbar icons  */
+
+ul.nav.navbar-nav>li>a:hover {
+    color: #96d830 !important;
+}
+
+ul.nav.navbar-nav>li>a:focus {
+    color: #fcfcfc;
+}
+
+ul.nav.navbar-nav>li.active>a,
+ul.nav.navbar-nav>li.active>a:hover,
+ul.nav.navbar-nav>li.active>a:focus {
+    color: #96d830;
+    background: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+ul.socila_icons>li {
+    display: inline-block;
+    transition: 0.5s ease-in-out;
+}
+
+ul.socila_icons>li>a {
+    color: white;
+    border: 1.5px solid #fcfcfc;
+    border-radius: 50%;
+    margin: 0 15px 0 0px;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+ul.socila_icons>li>a>i {
+    width: 20px;
+}
+
+ul.socila_icons>li>a:hover {
+    background: #96d830;
+    border-color: #96d830 !important;
+    color: white !important;
+}
+
+ul.socila_icons {
+    float: right;
+    margin: 10px 15px 15px 0px;
+    transition: 0.5s ease-in-out;
 }
