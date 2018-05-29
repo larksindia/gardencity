@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="./stylesheets/style.css">
     <link href="stylesheets/grayscale.css" rel="stylesheet">
+    <link href="stylesheets/media.css" rel="stylesheet">
     <!-- <link href="stylesheets/gardencity.css" rel="stylesheet"> -->
     <link href="stylesheets/animate.css" rel="stylesheet">
     <script src="https://unpkg.com/ionicons@4.1.2/dist/ionicons.js"></script>
@@ -79,13 +80,12 @@
             </nav>
         </header>
     </div>
-
     <!-- Intro Header -->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item slide-1 active ">
                 <img class="d-block w-100 img-fluid" src="./images/banner-1.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                     <div class="thm-container">
                         <div class="box valign-top">
                             <div class="content">
@@ -98,7 +98,7 @@
             </div>
             <div class="carousel-item slide-1">
                 <img class="d-block w-100 img-fluid" src="./images/banner-2.jpg" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                     <div class="thm-container">
                         <div class="box valign-top">
                             <div class="content">
@@ -111,7 +111,7 @@
             </div>
             <div class="carousel-item slide-1">
                 <img class="d-block w-100 img-fluid" src="./images/banner-3.jpg" alt="Third slide">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                     <div class="thm-container">
                         <div class="box valign-top">
                             <div class="content">
@@ -135,23 +135,6 @@
         </a>
     </div>
 
-
-    <!-- <header class="masthead">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h1 class="brand-heading">Grayscale</h1>
-                        <p class="intro-text">A free, responsive, one page Bootstrap theme.
-                            <br>Created by Start Bootstrap.</p>
-                        <a href="#about" class="btn btn-circle js-scroll-trigger">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header> -->
 
     <!-- About Section -->
     <section id="about" class="content-section text-center abt_commercial">
@@ -181,10 +164,11 @@
         </div>
     </section>
 
+
     <!-- Projects Section -->
     <section id="projects" class="download-section content-section text-center">
         <h2 style="color:coral;margin-top:-80px;">PROJECTS</h2>
-        <div class="row">
+        <div class="row" style="margin-right:0!important;margin-left:0!important;">
             <div class="col-md-4 col-xs-12" style="padding:0 !important;">
                 <div class="card" style="background:darkslategrey;height:100vh;border-radius:0 !important;display: flex;justify-content:center;align-content:center;flex-direction:column;">
                     <h1 class="align-middle">GREENFIELD</h1>
@@ -205,8 +189,9 @@
 
     </section>
 
+
     <!-- sustainability Section -->
-    <section id="sustainability" class="content-section text-center" style="background:#fff;">
+    <section id="sustainability" class="download-section content-section text-center" style="background:#fff;height:auto;">
         <div class="container">
             <div class="sustain_block col-lg-12">
                 <img src="images/sustain.png" alt="img" class="hidden-xs img-fluid">
@@ -225,17 +210,18 @@
 
     </section>
 
+
     <!-- News and research Section -->
-    <section id="news_research" class="content-section text-center" style="background:#fff;">
+    <section id="news_research" class="download-section content-section text-center" style="background:#fff;">
         <div class="container">
             <div class="row mb-4">
-                <div class="col-sm-6 col_slide">
+                <div class="col-sm-6 col-xs-12 col_slide">
                     <img src="images/news-2.jpg" alt="img" class="img-fluid">
                     <div class="text_over">
                         <h3>Will India become a home buyers' heaven? All you need to know about rera</h3>
                     </div>
                 </div>
-                <div class="col-sm-6 col_newstxt">
+                <div class="col-sm-6 col-xs-12 col_newstxt">
                     <h2>NEWS &amp; RESEARCH</h2>
                     <p>The real estate sector is set to finally get its own regulator from May 01,2017. The Real Estate(Regulation and Development) Act, 2016 (RERA) becomes effective in the entire country from tommorow.Each state and UT will have it's own
                         Regulatory Authority (RA) which will frame regulations and rules according to the Act </p>
@@ -246,11 +232,11 @@
 
             <!--ceo  -->
             <div class="row">
-                <div class="col-sm-6 col_ceo">
+                <div class="col-sm-6 col-xs-12 col_ceo">
                     <img src="images/ceo.jpg" alt="img" class="img-fluid">
                 </div>
 
-                <div class="col-sm-6 col_newstxt" id="text_ceo">
+                <div class="col-sm-6 col-xs-12 col_newstxt" id="text_ceo">
                     <h2 style="color:black;"><span style="color:coral;text-transform:uppercase;">Leading the show</span> Our Ceo</h2>
                     <p>Font Squirrel relies on advertising in order to keep bringing you great new free fonts and to keep making improvements to the web font generator. If you are seeing this message, you probably have an ad blocker turned on. Please consider
                         disabling it to see content from our partners.</p>
@@ -259,6 +245,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- Team Section -->
     <section id="team" class="content-section text-center team_grpl_sec" style="background:#fff;">
@@ -419,8 +406,6 @@
         </div>
     </section>
 
-    <!-- Map Section -->
-
 
     <!-- Footer -->
     <footer class="footer_sec">
@@ -431,7 +416,7 @@
                     <p id="footer_para">Construction of high rise residential apartments. New generation homes. High end commercial complex, recreational, entertainement, Hotels, educational, hospital and offices, using latest technologies of construction field</p>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-sm-4 col-xs-4">
                     <ul class="quick links nav">
                         <li><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                         <li><a class="nav-link js-scroll-trigger" href="#">Explore</a></li>
@@ -444,7 +429,7 @@
                     </ul>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-sm-4 col-xs-4">
                     <p id="follow_para">Follow Us :</p>
                     <ul class="footer_social">
                         <li><a href="#" id="twitter_id"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
