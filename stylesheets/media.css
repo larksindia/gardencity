@@ -3,6 +3,11 @@
 
 @media only screen and (max-width: 767px) {
     /*our custom css  */
+    .header.smaller {
+        height: 100px;
+        transition: 0.5s ease-in-out;
+        z-index: 1;
+    }
     .download-section {
         height: auto;
         background-color: #fff;
@@ -37,13 +42,14 @@
         background-repeat: no-repeat;
         background-position: center center;
         margin-top: 0;
-        height: 450px;
+        height: 550px;
     }
     .text_over {
         top: -16%;
     }
     ion-icon {
-        font-size: 30px;
+        font-size: 20px;
+        padding-top: 40px;
     }
     /* ------- another css ---------  */
     ul.socila_icons {
@@ -59,9 +65,10 @@
     .navbar-brand {
         height: 165px;
         transition: 0.5s ease-in-out;
+        padding-top: 2.3125rem !important;
     }
     .header.smaller .navbar-brand {
-        height: 130px;
+        height: 100px;
         transition: 0.5s ease-in-out;
     }
     .header.smaller .navbar-nav {
@@ -144,10 +151,10 @@
         margin-top: 0px;
     }
     .text_over>h3 {
-        font-size: 22px;
-        line-height: 28px;
+        font-size: 14px;
+        line-height: 20px;
         letter-spacing: 1px;
-        width: 80%;
+        width: 100%;
     }
     div#padding_col {
         padding: 0 15px;

@@ -1,5 +1,6 @@
 body {
     background: #fff !important;
+    font-family: 'Montserrat' !important;
 }
 
 .title {
@@ -245,10 +246,12 @@ div#sustain_container {
 
 img#img_button_sustain {
     width: 160px;
+    margin-left: 30%;
 }
 
 .download-section {
-    height: 100vh;
+    /* height: 100vh; */
+    background-color: #fff !important;
 }
 
 .text_over {
