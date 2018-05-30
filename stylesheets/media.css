@@ -41,8 +41,9 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        margin-top: 0;
+        margin-top: -10px;
         height: 550px;
+        padding: 25px;
     }
     .text_over {
         top: -16%;
@@ -670,5 +671,54 @@
     li.tgrpl6 {
         top: 1%;
         right: 12%;
+    }
+}
+
+
+/* for desktop  */
+
+@media only screen and (min-width: 1224px) {
+    .aboutus_sec1 {
+        background: url(../images/iconicadeveloper.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-top: -118px;
+        height: 580px;
+        padding: 25px;
+        margin-bottom: 200px !important;
+    }
+    .arrow-left-btn {
+        height: 140px;
+    }
+    p {
+        font-size: 22px;
+        line-height: 1.6;
+        /* margin: 0 0 35px; */
+        margin: 0 0 20px;
+    }
+    .sustain_text>p {
+        font-size: 20px;
+        color: #fcfcfc;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    section.contact_sec {
+        background: #064228;
+        padding: 0px 0px 50px;
+        font-family: 'Roboto condensed'
+    }
+    ion-icon {
+        display: inline-block;
+        font-size: 80px;
+        color: grey;
+        font-size: 40px;
+        color: #ababab;
+        /* border: 3px solid #ababab; */
+        border-radius: 50%;
+        /* width: 60px; */
+        /* height: 60px; */
+        text-align: center;
+        margin-top: -30px;
     }
 }
