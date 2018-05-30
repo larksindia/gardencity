@@ -7,6 +7,25 @@ body {
     color: #22b473;
 }
 
+.heading-title {
+    color: #fe9888;
+    font-family: 'Montserrat Bold', arial !important;
+    font-size: 40px;
+}
+
+.heading-title-ceo {
+    color: #fe9888;
+    font-family: 'Montserrat Bold', arial !important;
+    font-size: 40px;
+}
+
+.heading-title-proj {
+    color: #fe9888;
+    font-family: 'Montserrat Bold', arial !important;
+    font-size: 40px;
+    margin-top: -80px;
+}
+
 
 /* home page carousel changes  */
 
@@ -96,13 +115,13 @@ body {
 }
 
 .header.smaller .navbar-brand>img {
-    width: 100px;
+    width: 160px;
     margin-top: -17px;
     transition: 0.5s ease-in-out;
 }
 
 .navbar-brand>img {
-    width: 110px;
+    width: 160px;
     transition: 0.5s ease-in-out;
 }
 
@@ -573,7 +592,7 @@ footer.footer_sec {
 }
 
 img#footer_logo {
-    width: 60px;
+    width: 160px;
     margin-bottom: 8px;
 }
 

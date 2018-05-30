@@ -8,9 +8,15 @@
         transition: 0.5s ease-in-out;
         z-index: 1;
     }
+    .header.smaller .navbar-brand>img {
+        width: 100px;
+    }
+    .navbar-brand>img {
+        width: 120px;
+    }
     .download-section {
         height: auto;
-        background-color: #fff;
+        /* background-color: #fff; */
     }
     .collapse.show {
         display: block;
@@ -22,7 +28,7 @@
     }
     .content-section {
         padding-top: 100px;
-        padding-bottom: 100px;
+        padding-bottom: 0px;
     }
     .carosel-indicator-img {
         padding: 0px;
@@ -36,21 +42,34 @@
     .slide-1 .carousel-caption .content {
         padding-top: 0 !important;
     }
+    .heading-title {
+        font-size: 30px;
+    }
+    .heading-title-proj {
+        font-size: 30px;
+        margin-top: 0;
+    }
     .aboutus_sec1 {
         background: url(../images/iconicadeveloper.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        margin-top: -10px;
-        height: 550px;
+        margin-top: -50px;
+        height: 580px;
         padding: 25px;
     }
     .text_over {
-        top: -16%;
+        top: -10%;
+        left: 0;
+        right: 0;
+        padding: 100px;
     }
     ion-icon {
         font-size: 20px;
         padding-top: 40px;
+    }
+    section.team_grpl_sec {
+        padding-bottom: 100px;
     }
     /* ------- another css ---------  */
     ul.socila_icons {
@@ -150,6 +169,7 @@
     img#img_buttonnews {
         width: 80px;
         margin-top: 0px;
+        height: 80px;
     }
     .text_over>h3 {
         font-size: 14px;
@@ -642,8 +662,72 @@
     body {
         font-size: 12px;
     }
+    /*our css  */
+    .heading-title {
+        font-size: 20px;
+    }
+    .heading-title-ceo {
+        color: #fe9888;
+        font-family: 'Montserrat Bold', arial !important;
+        font-size: 20px;
+    }
+    .aboutus_sec1 {
+        background: url(../images/iconicadeveloper.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-top: -50px;
+        height: 650px;
+        padding: 25px;
+    }
+    .text_over {
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 50px;
+    }
     .projects_float_img {
         padding: 15% 0px 85%;
+    }
+    li.nav-item.tgrpl2>a.active:after {
+        content: '';
+        background-color: #c7c7c7;
+        width: 3px;
+        height: 300%;
+        position: absolute;
+        top: 102%;
+        left: 48%;
+    }
+    li.nav-item.tgrpl3>a.active:after {
+        content: '';
+        background-color: #c7c7c7;
+        width: 3px;
+        height: 300%;
+        position: absolute;
+        top: 102%;
+        left: 48%;
+    }
+    li.nav-item.tgrpl4>a.active:after {
+        content: '';
+        background-color: #c7c7c7;
+        width: 3px;
+        height: 300%;
+        position: absolute;
+        top: 102%;
+        left: 48%;
+    }
+    li.nav-item.tgrpl5>a.active:after {
+        content: '';
+        background-color: #c7c7c7;
+        width: 3px;
+        height: 300%;
+        position: absolute;
+        top: 102%;
+        left: 48%;
+    }
+    .col_newstxt>h2 {
+        font-size: 20px;
+        text-align: center;
     }
     ul.nav.nav-tabs.tabs_team_grpl>li>a>i {
         font-size: 20px;
@@ -677,7 +761,7 @@
 
 /* for desktop  */
 
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 1280px) {
     .aboutus_sec1 {
         background: url(../images/iconicadeveloper.jpg);
         background-size: cover;
