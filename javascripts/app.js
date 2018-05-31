@@ -47,18 +47,20 @@ $(window).resize(function() {
 bindNavbar();
 
 
+$(document).on(ready,function(){
+    $("#proj-1").on("click", function() {
+      $("#largeModal").modal("hide");
+      $("#largeModal1").modal("show");
+    });
 
-$("#proj-1").on("click",function(){
-    $("#largeModal").modal("hide");
-    $("#largeModal1").modal('show')
+    $("#proj-2").on("click", function() {
+      $("#largeModal1").modal("hide");
+      $("#largeModal2").modal("show");
+    });
+
+    $("#proj-3").on("click", function() {
+      $("#largeModal2").modal("hide");
+      $("#largeModal").modal("show");
+    });
 });
 
-$("#proj-2").on("click", function() {
-  $("#largeModal1").modal("hide");
-  $("#largeModal2").modal("show");
-});
-
-$("#proj-3").on("click", function() {
-  $("#largeModal2").modal("hide");
-  $("#largeModal").modal("show");
-});
