@@ -27,6 +27,36 @@ body {
 }
 
 
+/*project bg  */
+
+.proj_sec_bg {
+    background: url(../images/proj_building.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+h2>.proj-text {
+    display: block;
+    padding-bottom: 15px;
+}
+
+.heading-title-proj-banner {
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+.proj-div {
+    padding: 80px;
+}
+
+.proj-para {
+    margin: 0 0 80px;
+    color: #000;
+}
+
+
 /* home page carousel changes  */
 
 .carousel-item .img-fluid {
@@ -269,7 +299,7 @@ img#img_button_sustain {
 }
 
 .download-section {
-    height: 100vh;
+    /* height: 100vh; */
     /* background-color: #fff !important; */
 }
 

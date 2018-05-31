@@ -22,9 +22,13 @@
         display: block;
         background: #373330;
         width: 100%;
-        margin-left: -10px !important;
-        margin-right: -10px;
+        margin-left: -15px !important;
+        margin-right: -15px;
         width: 100%;
+        margin-top: -10px;
+        padding-left: 15px;
+        border-top: 1px solid #fff;
+        padding-top: 15px;
     }
     .content-section {
         padding-top: 100px;
@@ -755,6 +759,13 @@
     li.tgrpl6 {
         top: 1%;
         right: 12%;
+    }
+    .proj-div {
+        padding: 30px;
+    }
+    .heading-title-proj-banner {
+        /* padding-top: 30px; */
+        font-size: 20px;
     }
 }
 

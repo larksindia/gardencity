@@ -49,12 +49,18 @@
                                 </a>
                             </ul>
                         </li> -->
-                            <li class="dropdown">
+                            <!-- <li class="dropdown">
                                 <a class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" href="#about">About Us <span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <!-- <li><a class="nav-link js-scroll-trigger" href="#projects">ICONICA</a></li> -->
+                                   
                                     <li><a class="nav-link js-scroll-trigger" href="#team">TEAM</a></li>
                                 </ul>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link js-scroll-trigger" href="#about">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link js-scroll-trigger" href="#team">Our Team</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
@@ -171,23 +177,31 @@
 
 
     <!-- Projects Section -->
-    <section id="projects" class="download-section content-section text-center">
+    <section id="projects" class="download-section content-section text-center" style="padding-bottom:0 !important;">
         <h2 class="heading-title-proj">PROJECTS</h2>
         <div class="row" style="margin-right:0!important;margin-left:0!important;">
+            <div class="proj_sec_bg">
+                <div class="col-md-8 offset-md-2">
+                    <div class="proj-div">
+                        <h2 class="heading-title-proj-banner"><span class="proj-text">BUILDING BUILDINGS</span><span class="proj-text">THAT LAST</span></h2>
+                        <p class="proj-para">High-rise residential apartments,new generation homes,high-end commercial complexes,recreational and entertainement complexes,Hotels,educational institutions,hospital as well as Office spaces that speak for themseleves.</p>
+                    </div>
+                </div>
+            </div>
             <div class="col-md-4 col-xs-12" style="padding:0 !important;">
-                <div class="card" style="background:darkslategrey;height:100vh;border-radius:0 !important;display: flex;justify-content:center;align-content:center;flex-direction:column;">
+                <div class="card" style="background:darkslategrey;height:50vh;border-radius:0 !important;display: flex;justify-content:center;align-content:center;flex-direction:column;" data-toggle="modal" data-target="#largeModal">
                     <h1 class="align-middle">GREENFIELD</h1>
                 </div>
             </div>
             <div class="col-md-4 col-xs-12" style="padding:0 !important;">
-                <div class="card" style="background:#e57373;height:100vh;border-radius:0 !important;display: flex;justify-content:center;align-content:center;flex-direction:column;">
-                    <h1 class="text-center " style="margin-top:50%;margin-bottom:50%; ">ANEKAL PROJECT</h1>
+                <div class="card" style="background:#e57373;height:50vh;border-radius:0 !important;display: flex;justify-content:center;align-content:center;flex-direction:column;" data-toggle="modal" data-target="#largeModal1">
+                    <h1 class="text-center align-middle">ANEKAL PROJECT</h1>
                 </div>
-                <a class="nav-link js-scroll-trigger" href="#sustainability"><img src="images/button-2.png" alt="img" id="img_btndown"></a>
+                <a class="nav-link js-scroll-trigger" href="#sustainability" style="padding:0;"><img src="images/button-2.png" alt="img" id="img_btndown"></a>
             </div>
             <div class="col-md-4 col-xs-12" style="padding:0 !important; ">
-                <div class="card " style="background:#4e342e;height:100vh;border-radius:0 !important;display: flex;justify-content:center;align-content:center;flex-direction:column;">
-                    <h1 class="text-center " style="margin-top:50%;margin-bottom:50%; ">ICONICA GRANDE</h1>
+                <div class="card " style="background:#4e342e;height:50vh;border-radius:0 !important;display: flex;justify-content:center;align-content:center;flex-direction:column;" data-toggle="modal" data-target="#largeModal2">
+                    <h1 class="text-center align-middle">ICONICA GRANDE</h1>
                 </div>
             </div>
         </div>
@@ -445,6 +459,87 @@
             </div>
         </div>
     </footer>
+
+
+    <!--modals for projects -->
+
+    <div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="color:#000;">
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-12 col_ceo">
+                            <img src="images/project-1.jpg" alt="img" class="img-fluid">
+                        </div>
+
+                        <div class="col-sm-6 col-xs-12 col_newstxt">
+                            <h2 style="color:black;">GREENFIELD</h2>
+                            <p>Shriram Greenfield is a residential project located in budigeri cross off Old Madras Road.Spread across 19.42 acres, this 18 storey project offers 1588 apartments comprising of 2 & 3 BHKs ranging from 928 sq.ft to 1330 sq.ft.
+                                Greenfield comes with all the amenities of a gated community, and even offers visitors parking, A joint development by Garden City Realty & Shriram Properties,get ready to discover the art of living in the heart of it all.</p>
+                            <img src="images/button-3.png" alt="img" id="proj-1" class="img-fluid arrow-left-btn">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="largeModal1" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="color:#000;">
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-12 col_ceo">
+                            <img src="images/project-3.jpg" alt="img" class="img-fluid">
+                        </div>
+
+                        <div class="col-sm-6 col-xs-12 col_newstxt">
+                            <h2 style="color:black;">ANEKAL</h2>
+                            <p>Planned at Manchanahalli village, Attibelle Hobli, Anekal taluk by M/s Garden City realty Pvt Ltd., the Anekal is a residential project occupying 18 acres of land. Comprising of 7 towers- 4 towers are 14-storey & 3 towers are
+                                13-storey, and offer only 2-BHK units that are 534 sq.ft Perfect for those who prefer smartly-designed compact living spaces.</p>
+                            <img src="images/button-3.png" alt="img" id="proj-2" class="img-fluid arrow-left-btn">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="largeModal2" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="color:#000;">
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-12 col_ceo">
+                            <img src="images/project-2.jpg" alt="img" class="img-fluid">
+                        </div>
+
+                        <div class="col-sm-6 col-xs-12 col_newstxt">
+                            <h2 style="color:black;">ICONICA GRANDE</h2>
+                            <p>Iconica Grande is a residential villa project being developed by M/s Iconica Projects, Located at Madhurwada, Vishakapatnam District in Andhra Pradesh, this project consists of 138 villas spread 17 acres and offers villas ranging
+                                from 3065 sq.ft to 4675 sq.ft. Iconica Grande includes all the basic amenities of a gated community and is ideal for those who want to incorporate space and style to everyday living.</p>
+                            <img src="images/button-3.png" alt="img" id="proj-3" class="img-fluid arrow-left-btn">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
