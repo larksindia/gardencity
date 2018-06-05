@@ -410,8 +410,9 @@ ul.nav.nav-tabs.tabs_team_grpl>li.active>a>i {
     background: #c7c7c7;
     position: relative;
     padding: 20px 30px 30px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     text-align: center;
+    margin-bottom: -200px;
 }
 
 .grpl_team_details>h2 {

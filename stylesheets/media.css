@@ -573,7 +573,8 @@
     }
     .grpl_team_details {
         padding: 10px 10px 10px;
-        margin-top: 20px;
+        /* margin-top: 20px; */
+        margin-bottom: -100px;
     }
     li.tgrpl1.active>a:after {
         height: 500px;
@@ -778,10 +779,11 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        margin-top: -118px;
-        height: 580px;
+        margin-top: -200px;
+        height: 680px;
         padding: 25px;
         margin-bottom: 200px !important;
+        padding-top: 100px;
     }
     .arrow-left-btn {
         height: 140px;
