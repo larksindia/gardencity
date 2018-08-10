@@ -741,3 +741,44 @@ ul.socila_icons {
     margin: 10px 15px 15px 0px;
     transition: 0.5s ease-in-out;
 }
+
+
+/*team section  */
+
+.content-team-sec {
+    padding-top: 80px;
+    padding-bottom: 0;
+}
+
+.carousel-item-team .img-fluid {
+    width: 100%;
+    height: 100%;
+}
+
+.slide-1 .carousel-caption .content-team {
+    padding-top: 50px;
+    width: 80%;
+}
+
+
+/*career section   */
+
+.career_sec1 {
+    background: url(../images/job_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+
+.content-career-sec {
+    padding-bottom: 0;
+}
+
+.career-heading-1 {
+    padding-top: 20px;
+}
+
+.career-heading-2 {
+    margin-top: -20px;
+}
