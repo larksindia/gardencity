@@ -3,8 +3,20 @@ body {
     font-family: 'Montserrat' !important;
 }
 
+
+/*logo  */
+
+.iconica-logo-big {
+    width: 200px !important;
+    margin-top: -30px;
+}
+
 .title {
     color: #22b473;
+}
+
+.heading-title-about {
+    padding-top: 100px;
 }
 
 .heading-title {
@@ -97,7 +109,7 @@ h2>.proj-text {
 }
 
 .slide-1 .carousel-caption .content {
-    padding-top: 200px;
+    padding-top: 0px;
     width: 65%;
     margin: 0 auto;
 }
@@ -145,7 +157,7 @@ h2>.proj-text {
 }
 
 .header.smaller .navbar-brand>img {
-    width: 160px;
+    width: 160px !important;
     margin-top: -17px;
     transition: 0.5s ease-in-out;
 }
@@ -248,11 +260,11 @@ section.abt_commercial {
 }
 
 img#img_btndown {
-    width: 160px;
+    width: 100px;
     position: absolute;
     bottom: -50px;
     z-index: 0;
-    left: 33%;
+    left: 40%;
 }
 
 .sustain_block>a>img {
@@ -294,8 +306,8 @@ div#sustain_container {
 }
 
 img#img_button_sustain {
-    width: 160px;
-    margin-left: 30%;
+    width: 100px;
+    margin-left: 40%;
 }
 
 .download-section {
@@ -718,9 +730,9 @@ ul.socila_icons>li {
 ul.socila_icons>li>a {
     color: white;
     border: 1.5px solid #fcfcfc;
-    border-radius: 50%;
+    border-radius: 100%;
     margin: 0 15px 0 0px;
-    font-size: 14px;
+    /* font-size: 14px; */
     text-align: center;
     padding: 10px;
     transition: 0.5s ease-in-out;
@@ -769,6 +781,9 @@ ul.socila_icons {
     background-repeat: no-repeat;
     background-position: center center;
     height: 100%;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: -20px;
 }
 
 .content-career-sec {
@@ -781,4 +796,10 @@ ul.socila_icons {
 
 .career-heading-2 {
     margin-top: -20px;
+}
+
+.career_table {
+    background: #212529;
+    margin-left: -15px;
+    margin-right: -15px;
 }

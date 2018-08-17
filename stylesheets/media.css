@@ -9,10 +9,10 @@
         z-index: 1;
     }
     .header.smaller .navbar-brand>img {
-        width: 100px;
+        width: 100px !important;
     }
     .navbar-brand>img {
-        width: 120px;
+        width: 160px !important;
     }
     .download-section {
         height: auto;
@@ -815,7 +815,7 @@
         padding-top: 100px;
     }
     .arrow-left-btn {
-        height: 140px;
+        height: 80px;
     }
     p {
         font-size: 22px;
@@ -845,6 +845,9 @@
         /* width: 60px; */
         /* height: 60px; */
         text-align: center;
+        margin-top: -30px;
+    }
+    .team-sub-heading {
         margin-top: -30px;
     }
 }
