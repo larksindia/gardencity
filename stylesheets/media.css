@@ -811,7 +811,8 @@
         margin-top: -200px;
         height: 680px;
         padding: 25px;
-        margin-bottom: 200px !important;
+        /* margin-bottom: 200px !important; */
+        margin-bottom: -50px !important;
         padding-top: 100px;
     }
     .arrow-left-btn {
@@ -832,7 +833,7 @@
     section.contact_sec {
         background: #064228;
         padding: 0px 0px 50px;
-        font-family: 'Roboto condensed'
+        /* font-family: 'Roboto condensed' */
     }
     ion-icon {
         display: inline-block;
@@ -849,6 +850,8 @@
     }
     .team-sub-heading {
         margin-top: -30px;
+        letter-spacing: 14px;
+        padding-left: 20px;
     }
 }
 
@@ -861,7 +864,7 @@
         padding-bottom: 0;
     }
     .content-career-sec {
-        padding-top: 100px;
+        padding-top: 0px;
         padding-bottom: 0;
     }
 }

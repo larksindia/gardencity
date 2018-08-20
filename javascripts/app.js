@@ -61,5 +61,14 @@ $(document).ready(function() {
     $("#largeModal2").modal("hide");
     $("#largeModal").modal("show");
   });
+
+  $("#carouselExampleControls1").carousel({
+    interval: false
+  }); 
+
+  $("#carouselExampleControls").carousel({
+    interval: 3000
+  }); 
+
 });
 
