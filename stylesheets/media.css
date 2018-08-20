@@ -816,7 +816,8 @@
         padding-top: 100px;
     }
     .arrow-left-btn {
-        height: 80px;
+        width: 100px;
+        height: 100px;
     }
     p {
         font-size: 22px;
@@ -852,6 +853,9 @@
         margin-top: -30px;
         letter-spacing: 14px;
         padding-left: 20px;
+    }
+    .arrow-btn-down {
+        bottom: -150px !important;
     }
 }
 
