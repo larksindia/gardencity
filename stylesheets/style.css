@@ -806,3 +806,33 @@ ul.socila_icons {
     margin-left: -15px;
     margin-right: -15px;
 }
+
+
+/* contact sticky btn  */
+
+a.btn_fixed {
+    transform: rotate(270deg);
+    position: fixed;
+    z-index: 999;
+    right: 0;
+    float: right;
+    margin-right: -73px;
+    top: 74%;
+    background-color: darkorange;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    box-shadow: 1px 0px 15px rgba(0, 0, 0, 0.54);
+    word-spacing: 10px;
+}
+
+a.btn_fixed:hover {
+    color: #fff;
+}
+
+a.btn_fixed:focus {
+    color: #fff;
+}
