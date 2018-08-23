@@ -823,7 +823,7 @@
         font-size: 22px;
         line-height: 1.6;
         /* margin: 0 0 35px; */
-        margin: 0 0 20px;
+        margin: 0 0 10px;
     }
     .sustain_text>p {
         font-size: 20px;
@@ -850,12 +850,18 @@
         margin-top: -30px;
     }
     .team-sub-heading {
-        margin-top: -30px;
+        margin-top: -40px;
         letter-spacing: 14px;
         padding-left: 20px;
     }
     .arrow-btn-down {
         bottom: -150px !important;
+    }
+    p.team-para {
+        margin-top: -35px;
+    }
+    p.career-para {
+        margin-top: -20px;
     }
 }
 
